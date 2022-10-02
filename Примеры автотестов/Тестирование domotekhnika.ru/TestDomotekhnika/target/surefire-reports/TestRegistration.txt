@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestRegistration
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 190.221 s <<< FAILURE! - in TestRegistration
+testReg_47  Time elapsed: 7.068 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<+7 (914) 123-11-11[00]> but was:<+7 (914) 123-11-11[]>
+	at TestRegistration.testReg_47(TestRegistration.java:94)
+
+testReg_50  Time elapsed: 4.949 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_50(TestRegistration.java:130)
+
+testReg_51  Time elapsed: 5.164 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_51(TestRegistration.java:149)
+
+testReg_57  Time elapsed: 7.203 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...дреев Петр Семенович[ Максимович]> but was:<...дреев Петр Семенович[]>
+	at TestRegistration.testReg_57(TestRegistration.java:252)
+
+testReg_66  Time elapsed: 7.177 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_66(TestRegistration.java:398)
+
+testReg_67  Time elapsed: 4.656 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_67(TestRegistration.java:414)
+
+testReg_72  Time elapsed: 4.883 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_72(TestRegistration.java:551)
+
+testReg_73  Time elapsed: 7.677 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_73(TestRegistration.java:620)
+
+testReg_75  Time elapsed: 14.296 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestRegistration.testReg_75(TestRegistration.java:664)
+

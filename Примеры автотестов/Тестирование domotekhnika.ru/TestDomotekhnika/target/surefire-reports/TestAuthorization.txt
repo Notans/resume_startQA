@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestAuthorization
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 100.146 s <<< FAILURE! - in TestAuthorization
+testAuth_91  Time elapsed: 4.701 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<+7 (914) 123-11-11[00]> but was:<+7 (914) 123-11-11[]>
+	at TestAuthorization.testAuth_91(TestAuthorization.java:89)
+
+testAuth_95  Time elapsed: 11.957 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestAuthorization.testAuth_95(TestAuthorization.java:158)
+
+testAuth_96  Time elapsed: 9.077 s  <<< FAILURE!
+java.lang.AssertionError: Values should be different. Actual: Ошибка авторизации
+	at TestAuthorization.testAuth_96(TestAuthorization.java:171)
+
